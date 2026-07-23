@@ -1,3 +1,4 @@
 import os
+import subprocess
 
-y = 2
+subprocess.call("echo hello", shell=True)
